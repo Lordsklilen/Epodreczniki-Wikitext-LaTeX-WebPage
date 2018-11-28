@@ -1,7 +1,5 @@
 body {
-    background-color: #DDDDDD;
   margin: 0;
-  padding-top:10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 div{
@@ -12,7 +10,9 @@ div{
   overflow: hidden;
   background-color: #333;
 }
-
+hr{
+    width:100%;
+}
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -33,14 +33,20 @@ div{
 }
 .mainDiv{
     padding: 20px;
+    padding-top: 0px;
     margin: auto;
     width: 80%;
     max-width: 1000px;
+    border-radius: 30px;
 }
-img{
+.workinProgress_img{
     display: block;
     margin: 0 auto;
     width:300px;
     height: 300px;
 
+}
+.bottomLinks{
+    color: black;
+    
 }
